@@ -1,0 +1,118 @@
+-- YARHM 1.18.2
+-- is anyone even gonna see these comments
+
+
+if not game:IsLoaded() then
+	game:GetService("StarterGui"):SetCore("SendNotification", {
+		Title = "Script loading",
+		Text = "Waiting for the game to finish loading!",
+		Duration = 5
+	})
+	game.Loaded:Wait()
+end
+		-- Instances:
+
+local Converted = {
+	["_ASH"] = Instance.new("ScreenGui");
+	["_Open"] = Instance.new("TextButton");
+	["_UICorner"] = Instance.new("UICorner");
+	["_InitOpen"] = Instance.new("LocalScript");
+	["_OnClick"] = Instance.new("LocalScript");
+	["_Resizer"] = Instance.new("LocalScript");
+	["_UIPadding"] = Instance.new("UIPadding");
+	["_Init"] = Instance.new("LocalScript");
+	["_ListButton"] = Instance.new("TextButton");
+	["_UICorner1"] = Instance.new("UICorner");
+	["_FUNCTIONS"] = Instance.new("ModuleScript");
+	["_Notifications"] = Instance.new("Frame");
+	["_UIListLayout"] = Instance.new("UIListLayout");
+	["_UIPadding1"] = Instance.new("UIPadding");
+	["_Placeholder"] = Instance.new("Frame");
+	["_UICorner2"] = Instance.new("UICorner");
+	["_TextLabel"] = Instance.new("TextLabel");
+	["_TextBoxPlaceholder"] = Instance.new("Frame");
+	["_UIListLayout1"] = Instance.new("UIListLayout");
+	["_TextButton"] = Instance.new("TextButton");
+	["_UICorner3"] = Instance.new("UICorner");
+	["_UIPadding2"] = Instance.new("UIPadding");
+	["_TextBox"] = Instance.new("TextBox");
+	["_UICorner4"] = Instance.new("UICorner");
+	["_FloatingButton"] = Instance.new("TextButton");
+	["_UIPadding3"] = Instance.new("UIPadding");
+	["_UICorner5"] = Instance.new("UICorner");
+	["_Keybinding"] = Instance.new("LocalScript");
+	["_UIStroke"] = Instance.new("UIStroke");
+	["_Invisible"] = Instance.new("LocalScript");
+	["_FloatingButtons"] = Instance.new("Frame");
+	["_AddCustomModule"] = Instance.new("Frame");
+	["_UICorner6"] = Instance.new("UICorner");
+	["_UIStroke1"] = Instance.new("UIStroke");
+	["_UIGradient"] = Instance.new("UIGradient");
+	["_UIGradient1"] = Instance.new("UIGradient");
+	["_UIScale"] = Instance.new("UIScale");
+	["_TextLabel1"] = Instance.new("TextLabel");
+	["_TextBox1"] = Instance.new("TextBox");
+	["_UICorner7"] = Instance.new("UICorner");
+	["_UIPadding4"] = Instance.new("UIPadding");
+	["_TextLabel2"] = Instance.new("TextLabel");
+	["_Add"] = Instance.new("TextButton");
+	["_UICorner8"] = Instance.new("UICorner");
+	["_UIPadding5"] = Instance.new("UIPadding");
+	["_UIStroke2"] = Instance.new("UIStroke");
+	["_LocalScript"] = Instance.new("LocalScript");
+	["_Cancel"] = Instance.new("TextButton");
+	["_UICorner9"] = Instance.new("UICorner");
+	["_UIPadding6"] = Instance.new("UIPadding");
+	["_UIStroke3"] = Instance.new("UIStroke");
+	["_LocalScript1"] = Instance.new("LocalScript");
+	["_DroppedGunBGUI"] = Instance.new("BillboardGui");
+	["_TextLabel3"] = Instance.new("TextLabel");
+	["_UIStroke4"] = Instance.new("UIStroke");
+	["_MurdererBGUI"] = Instance.new("BillboardGui");
+	["_TextLabel4"] = Instance.new("TextLabel");
+	["_UIStroke5"] = Instance.new("UIStroke");
+	["_DraggableObject"] = Instance.new("ModuleScript");
+	["_Menu"] = Instance.new("Frame");
+	["_UICorner10"] = Instance.new("UICorner");
+	["_UIScale1"] = Instance.new("UIScale");
+	["_UIStroke6"] = Instance.new("UIStroke");
+	["_UIGradient2"] = Instance.new("UIGradient");
+	["_Animator"] = Instance.new("LocalScript");
+	["_List"] = Instance.new("Frame");
+	["_UICorner11"] = Instance.new("UICorner");
+	["_AutoSetup"] = Instance.new("LocalScript");
+	["_ScrollingFrame"] = Instance.new("ScrollingFrame");
+	["_UIListLayout2"] = Instance.new("UIListLayout");
+	["_UIPadding7"] = Instance.new("UIPadding");
+	["_UIPadding8"] = Instance.new("UIPadding");
+	["_UIGradient3"] = Instance.new("UIGradient");
+	["_UIStroke7"] = Instance.new("UIStroke");
+	["_UIGradient4"] = Instance.new("UIGradient");
+	["_AddCustomModule1"] = Instance.new("TextButton");
+	["_UICorner12"] = Instance.new("UICorner");
+	["_UIPadding9"] = Instance.new("UIPadding");
+	["_UIStroke8"] = Instance.new("UIStroke");
+	["_LocalScript2"] = Instance.new("LocalScript");
+	["_Close"] = Instance.new("TextButton");
+	["_UICorner13"] = Instance.new("UICorner");
+	["_LocalScript3"] = Instance.new("LocalScript");
+	["_UIStroke9"] = Instance.new("UIStroke");
+	["_HubCredits"] = Instance.new("TextLabel");
+	["_HubDesc"] = Instance.new("TextLabel");
+	["_HubName"] = Instance.new("TextLabel");
+	["_CanvasGroup"] = Instance.new("CanvasGroup");
+	["_UICorner14"] = Instance.new("UICorner");
+	["_ImageLabel"] = Instance.new("ImageLabel");
+	["_Opener"] = Instance.new("TextButton");
+	["_TextLabel5"] = Instance.new("TextLabel");
+	["_Area"] = Instance.new("Frame");
+	["_Area1"] = Instance.new("ScrollingFrame");
+	["_TextLabel6"] = Instance.new("TextLabel");
+	["_TextLabel7"] = Instance.new("TextLabel");
+	["_UIGradient5"] = Instance.new("UIGradient");
+	["_CloseArea"] = Instance.new("TextButton");
+	["_Frame"] = Instance.new("Frame");
+	["_UICorner15"] = Instance.new("UICorner");
+	["_CloseOpen"] = Instance.new("LocalScript");
+	["_TextLabel8"] = Instance.new("TextLabel");
+	["_UICorner16"] = Instance.new("UICorner");
